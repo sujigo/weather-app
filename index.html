@@ -30,6 +30,14 @@
         
 
     <div class="container">
+        <!-- Rectangular switch -->
+        <span id="celsius" class="unit bold">°C</span>
+        <label class="switch">
+            <input type="checkbox">
+            <span class="slider"></span>
+        </label>
+        <span id="fahrenheit" class="unit">°F</span>
+
         <i id="addButton" class="fas fa-plus-circle fa-2x"></i>
         <div class="current-main">
             <div>
@@ -55,16 +63,6 @@
 
     <div id="etc-group" class="container">
         <div class="etc">
-            <h6 class="title-small"><i class="fas fa-caret-up icon"></i>SUNRISE</h6>
-            <hr>
-            <h6 id="sunrise"></h6>
-        </div>
-        <div class="etc">
-            <h6 class="title-small"><i class="fas fa-caret-down icon"></i>SUNSET</h6>
-            <hr>
-            <h6 id="sunset"></h6>
-        </div>
-        <div class="etc">
             <h6 class="title-small"><i class="far fa-user icon"></i>FEELS LIKE</h6>
             <hr>
             <h6 id="feelslike"></h6>
@@ -73,11 +71,6 @@
             <h6 class="title-small"><i class="fas fa-water icon"></i>HUMIDITY</h6>
             <hr>
             <h6 id="humidity"></h6>
-        </div>
-        <div class="etc">
-            <h6 class="title-small"><i class="fas fa-tachometer-alt icon"></i>PRESSURE</h6>
-            <hr>
-            <h6 id="pressure"></h6>
         </div>
         <div class="etc">
             <h6 class="title-small"><i class="fas fa-wind icon"></i>WIND</h6>
@@ -89,11 +82,26 @@
             <hr>
             <h6 id="visibility"></h6>
         </div>
-        <div class="etc">
+        <!-- <div class="etc">
             <h6 class="title-small"><i class="fas fa-tint icon"></i>PCPN</h6>
             <hr>
             <h6 id="pcpn"></h6>
-        </div>
+        </div> -->
+        <!-- <div class="etc">
+            <h6 class="title-small"><i class="fas fa-caret-up icon"></i>SUNRISE</h6>
+            <hr>
+            <h6 id="sunrise"></h6>
+        </div> -->
+        <!-- <div class="etc">
+            <h6 class="title-small"><i class="fas fa-caret-down icon"></i>SUNSET</h6>
+            <hr>
+            <h6 id="sunset"></h6>
+        </div> -->
+        <!-- <div class="etc">
+            <h6 class="title-small"><i class="fas fa-tachometer-alt icon"></i>PRESSURE</h6>
+            <hr>
+            <h6 id="pressure"></h6>
+        </div> -->
     </div> 
 
     <script src="app.js"></script>
