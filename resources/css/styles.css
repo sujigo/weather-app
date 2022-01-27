@@ -129,21 +129,6 @@ footer {
     margin-right: 10px;
 }
 
-/* @media only screen and (max-width: 770px) {
-    .bg {
-        width: 250px;
-    }
-    #etc-group {
-        width: 250px;
-    }
-}
-
-@media only screen and (max-width: 575px) {
-    .list-group {
-        display: none;
-    }
-} */
-
 
 /* The switch - the box around the slider */
 .switch {
@@ -220,4 +205,16 @@ footer {
     font-weight: bold;
     font-size: 17px;
     color: white;
+}
+
+
+
+@media only screen and (max-width: 530px) {
+    .container {
+        margin: 0 10%;
+        width: 250px;
+    }
+    #current-main-icon img {
+        display: none;
+    }
 }
