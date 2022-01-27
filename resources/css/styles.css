@@ -1,0 +1,144 @@
+body {
+    background-image: url(../images/bg.jpeg);
+    -webkit-background-size: cover;
+    backdrop-filter: blur(8px);
+    color: white;
+}
+
+.container {
+    padding: 0;
+    width: 500px;
+}
+
+.title-small {
+    font-size: 12px;
+}
+
+hr {
+    margin: 0 0 10px 0;
+}
+
+.icon {
+    padding-right: 8px
+}
+
+/* SEARCHBAR */
+.searchBar {
+    padding: 10px 0 20px 0;
+}
+
+#searchInputField {
+    background-color:rgba(12, 117, 158, 0.3);
+    border-style: none;
+}
+
+#searchButton {
+    background-color:rgba(12, 117, 158, 0.3);
+    border-style: none;
+}
+
+
+/* SAVED LIST */
+.savedList {
+    background-color:rgba(12, 117, 158, 0.3);
+}
+
+/* .list-group  */
+.list-group {
+    overflow-x: scroll;
+}
+
+.list-group li i {
+    /* gap: 10px; */
+    margin-top: 5px;
+    margin-left: 10px;
+}
+
+#addButton {
+    float: right;
+    margin-bottom: 20px;
+}
+
+/* CURENT MAIN */
+.current-main {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 40px 0;
+}
+
+#current-main-cityName {
+    margin: 0;
+    font-size: 40px;
+}
+
+#current-main-temp {
+    font-size: 70px;
+    margin: 0;
+}
+
+#current-main-icon img {
+    width: 150px;
+    margin: 20px 0 0 30px;
+}
+
+#current-main-desc {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* HOURS GROUP */
+#hours-group-title {
+    padding-left: 10px;
+}
+
+#hours-group {
+    background-color:rgba(12, 117, 158, 0.3);
+    padding: 10px 0;
+    border-radius: 10px;
+    margin-bottom: 7px;
+}
+
+#hourly {
+    display: flex;
+    text-align: center;
+    gap: 25px;
+    overflow-x: scroll;
+}
+
+/* ETC SECTION */
+#etc-group {
+    margin-bottom: 10px;
+}
+
+.etc {
+    display: inline-block;
+    width: 119px;
+    height: 80px;
+    padding: 10px;
+    margin: 0 0 5px 2px;
+    background-color:rgba(12, 117, 158, 0.3);
+    border-radius: 10px;
+}
+
+/* FOOTER */
+footer {
+    text-align: right;
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+/* @media only screen and (max-width: 770px) {
+    .bg {
+        width: 250px;
+    }
+    #etc-group {
+        width: 250px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .list-group {
+        display: none;
+    }
+} */

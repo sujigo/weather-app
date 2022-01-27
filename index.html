@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/52e276fb65.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="resources/css/styles.css">
+</head>
+
+<body>
+    <div class="container input-group searchBar">
+        <input type="text" id="searchInputField" class="form-control" placeholder="Search for a city" autofocus>
+        <div class="input-group-append">
+            <button id="searchButton" class="btn btn-secondary" type="button"><i class="fas fa-search-location"></i></button>
+        </div>
+    </div>
+
+
+    <ul class="container list-group flex-row">
+        <!-- City List -->
+    </ul>
+        
+
+    <div class="container">
+        <i id="addButton" class="fas fa-plus-circle fa-2x"></i>
+        <div class="current-main">
+            <div>
+                <h2 id="current-main-cityName"></h2>
+                <h1 id="current-main-temp"></h1>
+                <h6 id="current-main-desc"></h6> 
+            </div>
+            <div id="current-main-icon">
+                <!-- <img id="current-main-icon" /> -->
+            </div>
+        </div>
+    </div>
+    
+    
+    <div id="hours-group" class="container">
+        <h6 id="hours-group-title" class="title-small"><i class="far fa-clock icon"></i>3-HOUR FORECAST</h6>
+        <hr>
+        <div id="hourly">
+            <!-- 3-HOURLY WEATHER -->
+        </div> 
+    </div>
+
+
+    <div id="etc-group" class="container">
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-caret-up icon"></i>SUNRISE</h6>
+            <hr>
+            <h6 id="sunrise"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-caret-down icon"></i>SUNSET</h6>
+            <hr>
+            <h6 id="sunset"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="far fa-user icon"></i>FEELS LIKE</h6>
+            <hr>
+            <h6 id="feelslike"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-water icon"></i>HUMIDITY</h6>
+            <hr>
+            <h6 id="humidity"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-tachometer-alt icon"></i>PRESSURE</h6>
+            <hr>
+            <h6 id="pressure"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-wind icon"></i>WIND</h6>
+            <hr>
+            <h6 id="wind"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-eye icon"></i>VISIBILITY</h6>
+            <hr>
+            <h6 id="visibility"></h6>
+        </div>
+        <div class="etc">
+            <h6 class="title-small"><i class="fas fa-tint icon"></i>PCPN</h6>
+            <hr>
+            <h6 id="pcpn"></h6>
+        </div>
+    </div> 
+
+    <script src="app.js"></script>
+</body>
+<footer>Copyright © 2022 Suji Ahn ☀︎</footer>
+</html>
